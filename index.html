@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth Three</title>
+
+    <!-- Google Font Exo-2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap"
+      rel="stylesheet" />
+
+    <!--Google Font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="flex h-screen bg-black">
+      <div class="w-1/2 flex flex-col justify-center px-8">
+        <div style="max-width: 500px" class="mx-auto">
+          <h1 class="text-white text-4xl mb-8 font-exo leading-none">
+            CHALLENGING BUILD THE EARTH WITH THREEJS
+          </h1>
+
+          <p class="text-slate-300 mb-8 font-lato">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            molestias ratione consequuntur facilis nostrum corrupti quo
+            asperiores similique consectetur commodi inventore, atque sunt optio
+            eum saepe voluptate ex provident minima.
+          </p>
+          <div>
+            <a
+              href="#"
+              class="text-white font-lato bg-blue-600 inline-block px-6 py-3 rounded-full"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2" id="canvasContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

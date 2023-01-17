@@ -1,0 +1,22 @@
+{
+  "name": "clone-earth",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0",
+    "vite-plugin-string": "^1.2.1"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "three": "^0.148.0"
+  }
+}
